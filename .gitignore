@@ -1,0 +1,81 @@
+# Virtual environment files
+venv
+*_venv
+
+# Sublime Code editor files
+*.sublime-workspace
+*.sublime-project
+
+# OS level files
+*.DS_Store
+
+# Local DB
+db.sqlite3
+db.sqlite3-journal
+
+# Files - Periodic Updates
+src/helpers/scripts/data/india_ip_ranges.txt
+
+# Static CDN
+static_cdn/media/
+static_cdn/static/
+
+# Production files
+src/shoppnn/settings/production.py
+src/shoppnn/settings/__init__.py
+
+# Gunicorn related
+gunicorn.conf
+
+# Python cache / Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# Environment Variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+
+# Local SSL
+ssl/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node and related
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+package-lock.json
